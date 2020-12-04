@@ -376,6 +376,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1.75rem;
+  color: #12846e;
 }
 
 h4, .h4 {
@@ -1961,6 +1962,23 @@ pre code {
 }
 .table-responsive > .table-bordered {
   border: 0;
+}
+
+
+.form-control-message {
+  display: block;
+  width:20rem;
+  height: 10rem;;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0.125rem solid #ced4da;
+  border-radius: 0.5rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .form-control {

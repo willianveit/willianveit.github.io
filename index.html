@@ -179,11 +179,27 @@
                 <div class="divider-custom-line"></div>
             </div>
             <!-- Contact Section Form-->
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
+            <div class="row justify-content-center text-center">
+                <div>
                     <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
-                    <form action="http://formspree.io/willian.k_veit@hotmail.com"><input type="email"
-                            name="_replyto"><textarea name="body"></textarea><input type="submit" value="Send">
+                    <form action="https://formspree.io/f/xjvpenkp" method="POST">
+                        <br>
+                        <label>
+                            <h3>Your email</h3>
+                            <input class="form-control" type="text" name="_replyto">
+                        </label>
+                        <br>
+                        <br>
+                        <label>
+                            <h3>Your message</h3>
+                            <textarea class="form-control-message" name="message"></textarea>
+                        </label>
+
+                        <!-- your other form fields go here -->
+
+                        <!-- <button type="submit">Send</button> -->
+                        <br><br>
+                        <button class="btn btn-primary btn-xl" type="submit">Send</button>
                     </form>
                     <!-- <form id="contactForm" name="sentMessage" novalidate="novalidate"> -->
                     <!-- <div class="control-group">
