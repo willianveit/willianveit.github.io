@@ -2412,6 +2412,10 @@ textarea.form-control {
   }
 }
 
+.paddx2{
+  padding: 3px;
+}
+
 .btn {
   display: inline-block;
   font-weight: 400;
